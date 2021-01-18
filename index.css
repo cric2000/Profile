@@ -241,14 +241,14 @@ li{
     
     .pic4{
        
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     .pic4:hover{
         cursor: pointer;
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     h1{
