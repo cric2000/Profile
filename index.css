@@ -1,0 +1,296 @@
+body{
+    margin: 0px;
+}
+
+#top{
+    background-color: #71c9ce;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+h1{
+    margin-top: 0px;
+    color: white;
+    font-size: 70px;
+    font-family: 'Handlee', cursive;
+    line-height: 2;
+}
+
+p{
+    font-size: 60px;
+    font-weight: normal;
+    font-family: 'Parisienne', cursive;
+}
+
+.pic{
+    width: 200px;
+    height: 200px;
+}
+
+.pic2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 30px;
+    left:30%;
+}
+ 
+.pic3{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 30px;
+    right:30%;
+}
+
+.middle{
+    text-align: center;
+    background-color: #eaeaea;
+    padding: 20px;
+    position: relative;
+}
+
+.pic4{
+    width: 300px;
+    height: 300px;
+    margin-top:20px;
+}
+
+.pic4:hover{
+    cursor: pointer;
+    width: 350px;
+    height: 350px;
+}
+
+.intro{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    line-height: 2;
+}
+ .skills{
+     font-size: 50px;
+     color: black;
+     padding: 30px;
+ }
+
+ hr{
+     border-style: none;
+     width: 10%;
+     border-top-style: dotted;
+     height: 0px;
+     border-width: 10px;
+     color: cadetblue;
+ }
+
+ .pic5{
+     height: 200px;
+     width: 200px;
+     float: left;
+     margin-left: 30%;
+ }
+
+ .pic5:hover{
+      cursor: pointer;
+      box-shadow: 0 7px 6px 0  black;
+      transition: 0.3s;
+ }
+
+ .middle p{
+     font-size: 20px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     line-height: 2;
+ }
+
+h2{
+    font-size: 35px;
+    text-align: left;
+    color: blue;
+
+}
+
+.projects p{
+    text-align: left;
+}
+
+.pic6{
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin-right: 10%;
+}
+
+.pic6:hover{
+    cursor: pointer;
+    box-shadow: 0 7px 6px 0  black;
+    transition: 0.3s;
+}
+
+.bmi{
+    text-align: left;
+    margin-left: 60%;
+}
+.calci{
+    text-align: right;
+    color: cornflowerblue;
+}
+
+.skills-three img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 15%;
+}
+
+.skills-three img:hover{
+    cursor: pointer;
+    box-shadow: 0 7px 6px 0  black;
+    transition: 0.3s;
+}
+
+.skills-three p{
+    text-align: left;
+    margin-left: 26%;
+}
+
+.skills-three h2{
+    color: darkblue;
+}
+
+.contact h2{
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Handlee', cursive;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-style: none;
+}
+
+.btn:hover{
+    background-color: yellowgreen;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 black;
+    transition: 0.3s;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bottom{
+    text-align: center;
+    background-color: #71c9ce;
+    padding: 1px; 
+    overflow: hidden; 
+
+}
+
+.bottom p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 0px;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+}
+li{
+   display: inline-block;
+   margin-right: 2%;
+   padding: 10px;
+
+}
+
+.bottom img{
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width:1600px){
+         
+      .pic2{
+          left: 0;
+          width: 100px;
+          height: 100px;
+          bottom:60px
+      }
+
+      .pic3{
+        width: 100px;
+        height: 100px;
+          right: 0;
+          bottom:60px;
+      }
+              
+}
+
+@media screen and (max-width:550px){
+         
+    .pic2{
+        display: none;
+    }
+
+    .pic3{
+       display: none;
+    }
+
+    .pic5{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pic6{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skills-three img{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    h2 , .projects p{
+        text-align: center;
+    }
+
+    .bmi {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .calci{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skills-three p {
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+            
+}
+
+.link{
+    text-decoration: none;
+    color: red;
+}
